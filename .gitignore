@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# dotenv environment files
+.env
+.env.*
+
+# Mypy, Pyright, etc.
+.mypy_cache/
+.pyright/
+
+# Pytest
+.pytest_cache/
+coverage.*
+
+# Uvicorn reload artifacts
+*.pid
+
+# Compiled Cython files
+*.c
+*.cpp
+
+# Local database or SQLite files
+*.db
+
+# Pydantic cache (if you're using it)
+.pdm.toml
+__pydantic__/ 
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
